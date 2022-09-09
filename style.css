@@ -1,24 +1,45 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
   }
-  
+
+  h3 {
+    text-align: left;
+  }
+  h3:nth-child(1) {
+    text-align: center;
+  }
+   
   main{
     width: 800px;
   }
   
   aside{
     width: 180px;
+    text-align: center;
+    margin: 10px;
     border: 1px solid black;
+    position: fixed;
+    top: 150px;
+    right: 0;
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+
+  button:active {
+    color: black;
+    background-color: white;
   }
